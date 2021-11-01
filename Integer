@@ -1,0 +1,48 @@
+package myScan;
+
+import java.util.Scanner;
+
+public class Integer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a;
+		double b;
+		
+		Scanner number = new Scanner (System.in);
+		
+		System.out.println("Enter an integer:");
+		a = number.nextInt();
+		
+		System.out.println("Using nextInt(): " + a);
+		
+		System.out.println();
+		
+		System.out.println("Enter Double value: ");
+		b = number.nextDouble();
+		
+		System.out.println("Using nextDouble(): " + b);
+		
+		double average = (a+b)/2;
+		System.out.println("Average is "+ average);
+		
+		boolean average1 = true;
+		boolean average2 = false;
+		System.out.println(a > b);
+		System.out.println(a == b);
+	}
+
+}
+
+Output:
+Enter an integer:
+22
+Using nextInt(): 22
+
+Enter Double value: 
+12.5
+Using nextDouble(): 12.5
+Average is 17.25
+true
+false
