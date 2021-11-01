@@ -1,0 +1,26 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class ReadingInputExercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String message2;
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Who do you want to say to your friends?");
+		
+		message2 = scan.nextLine();
+		
+		System.out.println("TO MY FRIEND: \n\"" + message2 + "\"");
+	}
+
+}
+
+Output:
+Who do you want to say to your friends?
+I hope everyone is healthy.
+TO MY FRIEND: 
+"I hope everyone is healthy."
