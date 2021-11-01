@@ -1,0 +1,41 @@
+package myScan;
+
+import java.util.Scanner;
+
+public class MyName {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		String surname;
+		String friendName;
+		String friendSurname;
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter your name: ");
+		name = scanMe.next();
+		surname = scanMe.next();
+		
+		System.out.println("My name is " + name );
+		System.out.println("My surname is " + surname );
+		
+		System.out.println("\nEnter your bro name: ");
+		friendName = scanMe.next();
+		friendSurname = scanMe.nextLine();
+		
+		System.out.println("My best friend's name is " + friendName);
+		System.out.println("My best friend's surname is " + friendSurname);
+	}
+}
+
+Output:
+Enter your name: 
+KaiZi
+Ang
+My name is KaiZi
+My surname is Ang
+
+Enter your bro name: 
+JiaQing Lee
+My best friend's name is JiaQing
+My best friend's surname is  Lee
