@@ -1,0 +1,24 @@
+package selfProgramming;
+
+public class MathExercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("6x*x - 17x + 12 = 0");
+		
+		double a = 6;
+		double b = -17;
+		double c = 12;
+		double formula;
+		formula = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+		
+		System.out.println("The answer is " + formula );
+		System.out.println("The answer2 is " + (b - c));
+	}
+}
+
+Output:
+6x*x - 17x + 12 = 0
+The answer is 1.5
+The answer2 is -29.0
