@@ -1,0 +1,32 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class WelcomeToUUMPortal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String username;
+		int password;
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Welcome To UUM Portal !");
+		System.out.println("Please insert your username: ");
+		username = scan.next();
+		System.out.println("Please insert your password: ");
+		password = scan.nextInt();
+		System.out.println("Username: " + username);
+		System.out.println("Password: " + password);
+		
+	}
+
+}
+
+Output:
+Welcome To UUM Portal !
+Please insert your username: 
+lee_wei_chong
+Please insert your password: 
+123456789
+Username: lee_wei_chong
+Password: 123456789
